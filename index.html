@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRACTICE BOOTSTRAP 5.3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-2" href="#">PRACTICE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 active fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item fs-5">
+                            <a class="nav-link btn btn-primary text-white px-4 py-2 ms-2" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="container pt-5">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6 col-12">
+                        <h1 class="display-4 fw-bold"> <span class="text-primary">Discover</span> the power of Bootstrap
+                        </h1>
+                        <p class="lead pb-3 pt-2">Explore the world of Bootstrap 5 with this practice project and learn
+                            how to use
+                            it to build a beautiful and responsive website.</p>
+                        <button class="btn btn-primary px-5 py-3 d-inline-block"> Get Started </button>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img src="images/hero.webp" alt="tech gear vr headset" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <section class="container py-5 mt-5">
+        <div class="row g-5">
+            <div class="col-12 col-lg-5">
+                <img src="images/img-1.webp" class="img-fluid d-block mx-auto">
+            </div>
+            <div class="col-12 col-lg-7 text-center text-md-start">
+                <h2 class="text-primary fs-1 fw-bold mb-3">
+                    About Bootstrap Learning
+                </h2>
+                <p>Bootstrap is a powerful front-end framework that allows developers to create responsive and
+                    mobile-first websites with ease. With its pre-designed components and grid system, Bootstrap
+                    simplifies the process of building web pages, making them look sleek and professional. Whether
+                    you're a beginner or an experienced developer, Bootstrap has something for everyone.</p>
+                <p>Bootstrap's extensive library of CSS and JavaScript components makes it incredibly versatile for
+                    building web applications and websites. From navigation bars and buttons to forms and modals,
+                    Bootstrap offers a wide range of customizable elements that can be easily integrated into your
+                    projects. Additionally, Bootstrap's responsive grid system ensures consistent layout and design
+                    across different devices, eliminating the need for tedious manual adjustments.</p>
+                <button class="btn btn-primary px-5 py-3 d-inline-block fs-5 fw-bold mt-4"> READ MORE</button>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-primary fs-1 fw-bold mb-3 text-center">
+                    Key Features
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <ion-icon name="bulb-outline" class="icons"></ion-icon>
+                    <h3>
+                        Innovative Technology
+                    </h3>
+                    <p class="card-text">
+                        Explore products featuring the latest and most innovative
+                        Technology
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="card p-3 shadow-sm blue-bg">
+                    <ion-icon name="shield-checkmark-outline" class="icons"></ion-icon>
+                    <h3>
+                        Quality
+                    </h3>
+                    <p class="card-text">
+                        Explore products featuring the latest and most innovative Technology
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="card p-3 shadow-sm">
+                    <ion-icon name="time-outline" class="icons"></ion-icon>
+                    <h3>
+                        24/7 Support
+                    </h3>
+                    <p class="card-text">
+                        Experience peace of mind with our round-the-clock support. Our dedicated team is here for you
+                        24/7
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-primary fs-1 fw-bold text-center">
+                    Our Products
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs justify-content-center mt-2 g-2" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active fs-5 me-2 me-md-2" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  fs-5 me-2 me-md-2" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false">Vr Sets</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  fs-5 me-2 me-md-2 " id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false">HeadPhones</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="row mt-4 g-4">
+                            <div class="col-12 col-lg-4">
+                                <img src="images/headphones-1.webp" class="img-fluid d-block mx-auto" alt="" srcset="">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="images/vr-1.webp" class="img-fluid d-block mx-auto" alt="" srcset="">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="images/vr-2.webp" class="img-fluid d-block mx-auto" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div class="row  mt-4 g-4">
+                            <div class="col-12 col-lg-4">
+                                <img src="images/vr-1.webp" class="img-fluid d-block mx-auto" alt="" srcset="">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="images/vr-2.webp" class="img-fluid d-block mx-auto" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <div class="row mt-4 g-4">
+                            <div class="col-12 col-lg-4">
+                                <img src="images/headphones-1.webp" class="img-fluid d-block mx-auto " alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5">
+        <div class="row py-5 my-3">
+            <h2 class="text-primary fs-1 fw-bold text-center">HOW IT WORKS?</h2>
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fs-3 text-primary fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                How to use bootstrap
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                To use Bootstrap effectively, start by including the Bootstrap CSS file in the head of
+                                your HTML document. Then, place your content inside a container, a fixed-width container
+                                for your page's content. Utilize Bootstrap's grid system to create a responsive layout
+                                by creating rows and columns of content. Utilize Bootstrap's components, such as
+                                buttons, forms, and navigational elements, to enhance the look and functionality of your
+                                site. Customize Bootstrap with your own CSS to match your site's design and preferences.
+                                Remember, the key to using Bootstrap effectively is to understand the basics of its grid
+                                system and components, and then use them to create a site that is responsive, visually
+                                appealing, and functional.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-3 text-primary fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Bootstrap Components
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Bootstrap offers a wide range of components that you can use to build your site. From
+                                buttons and forms to navigation bars and modals, Bootstrap has components to suit
+                                every need. You can use these components to enhance the functionality and appearance of
+                                your site. For example, Bootstrap's buttons can be used to add visual appeal to your
+                                site, and its forms can be used to create user-friendly interfaces for your users to
+                                fill out. If you need to create a navigation bar, Bootstrap's navigation component
+                                makes it easy to create a responsive and visually appealing menu. Furthermore, if
+                                you need to create a modal dialog, Bootstrap's modal component makes it easy to add
+                                dynamic and interactive elements to your site.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-3 text-primary fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Bootstrap Accordion
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="blue-bg py-5">
+        <p class="fs-5 text-center text-white">
+            &copy; 2024 Bootstrap. All rights reserved.
+        </p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
